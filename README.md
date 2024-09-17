@@ -83,8 +83,7 @@ Caso queira contribuir ou modificar o projeto, siga os passos abaixo:
 
 ## 📚 Tecnologias Utilizadas
 
-- **Node.js**: Para a execução do backend.
-- **HTML/CSS/JavaScript**: Interface do usuário simples e intuitiva.
+- **React Typescript template**: Interface do usuário simples e intuitiva.
 - **Canvas API**: Para a geração dinâmica das imagens.
 
 ## 📖 Referências
@@ -95,7 +94,7 @@ Caso queira contribuir ou modificar o projeto, siga os passos abaixo:
 
 Veja o aplicativo em funcionamento no vídeo abaixo:
 
-[Link para o vídeo]
+[[Link para o vídeo]](https://www.linkedin.com/feed/update/urn:li:activity:7241956921849589760/)
 
 ## 📝 Licença
 
