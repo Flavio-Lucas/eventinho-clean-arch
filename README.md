@@ -1,6 +1,3 @@
-Aqui está um exemplo de `README.md` que você pode usar para o seu projeto. Ele inclui seções importantes como uma breve descrição, instruções de instalação e uso, e informações sobre a arquitetura do código:
-
-
 # Aplicativo para Criação Rápida de Imagens de Divulgação de Eventos 🎨📅
 
 Este projeto foi desenvolvido para facilitar a criação de imagens para divulgação de eventos de forma rápida e eficiente, economizando tempo e evitando retrabalho na modificação de designs repetitivos. Inspirado pela necessidade que surgiu na equipe de comunicação da minha igreja, criei uma solução que gera imagens automaticamente com base na agenda semanal dos eventos.
@@ -105,5 +102,3 @@ Veja o aplicativo em funcionamento no vídeo abaixo:
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
-
-Sinta-se à vontade para adaptar e adicionar mais detalhes ao `README.md` conforme necessário.
