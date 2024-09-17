@@ -1,26 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from 'react';
+import EventForm from './adapters/EventForm';
+import EventList from './adapters/EventList';
+import { EventController } from './application/EventController';
+import { Event } from './domain/Event'
+import './App.scss';
 
-function App() {
+const App: React.FC = () => {
+  const [events, setEvents] = useState<Event[]>([]);
+
+  const handleRefreshEventList = () => {
+    setEvents(EventController.loadEvents())
+  }
+
+  useEffect(() => {
+    setEvents(EventController.loadEvents())
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="app">
+      <header>
+        <h1>GERE UMA IMAGEM <span style={{fontSize: '1rem'}}>v{process.env.REACT_APP_VERSION}</span></h1>
       </header>
+      <main>
+        <EventForm refreshEventList={handleRefreshEventList} />
+        <EventList refreshEventList={handleRefreshEventList} events={events} />
+      </main>
     </div>
   );
-}
+};
 
 export default App;
