@@ -1,46 +1,109 @@
-# Getting Started with Create React App
+Aqui está um exemplo de `README.md` que você pode usar para o seu projeto. Ele inclui seções importantes como uma breve descrição, instruções de instalação e uso, e informações sobre a arquitetura do código:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Aplicativo para Criação Rápida de Imagens de Divulgação de Eventos 🎨📅
 
-In the project directory, you can run:
+Este projeto foi desenvolvido para facilitar a criação de imagens para divulgação de eventos de forma rápida e eficiente, economizando tempo e evitando retrabalho na modificação de designs repetitivos. Inspirado pela necessidade que surgiu na equipe de comunicação da minha igreja, criei uma solução que gera imagens automaticamente com base na agenda semanal dos eventos.
 
-### `npm start`
+## 🚀 Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Geração automática de imagens de divulgação de eventos com base em um design pré-definido.
+- Evita retrabalho ao eliminar a necessidade de modificar o design para cada novo evento.
+- Interface simples para permitir que qualquer pessoa adicione facilmente eventos e gere uma imagem de alta qualidade para divulgação.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🛠️ Arquitetura
 
-### `npm test`
+Este projeto foi desenvolvido utilizando os princípios de **Clean Architecture**, conforme descrito no livro *Clean Architecture* de Robert C. Martin. A ideia foi garantir uma separação clara entre as camadas de lógica de negócio, interface do usuário e fontes de dados, facilitando manutenções futuras e possíveis expansões.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+A arquitetura foi desenhada de forma modular, garantindo:
 
-### `npm run build`
+- **Independência de frameworks**: O core do sistema não depende de frameworks externos, o que torna fácil mudar partes da aplicação sem impactar a lógica central.
+- **Facilidade de manutenção**: O código está organizado em camadas e é altamente modular, facilitando a adição de novas funcionalidades sem alterar o core existente.
+- **Testabilidade**: A lógica de negócio é facilmente testável graças à separação clara de responsabilidades.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛑 Pré-requisitos
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js (>=14.x)
+- npm ou yarn
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📦 Instalação
 
-### `npm run eject`
+1. Clone o repositório:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   cd nome-do-repositorio
+   ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Instale as dependências:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+   ```bash
+   npm install
+   ```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+3. Execute o aplicativo:
 
-## Learn More
+   ```bash
+   npm start
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📝 Como usar
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Insira os eventos da semana no arquivo de configuração ou na interface do usuário.
+2. Execute o comando de geração de imagem ou clique no botão "Gerar Imagem".
+3. A imagem será gerada com o design pré-definido e as informações dos eventos.
+
+## 🚧 Desenvolvimento
+
+Caso queira contribuir ou modificar o projeto, siga os passos abaixo:
+
+1. Clone o repositório e crie uma nova branch:
+
+   ```
+
+   git checkout -b minha-feature
+   ```
+
+2. Faça suas alterações e adicione os arquivos modificados:
+
+   ```bash
+   git add .
+   ```
+
+3. Commite suas mudanças:
+
+   ```bash
+   git commit -m "Adicionei uma nova feature"
+   ```
+
+4. Envie suas alterações para o repositório remoto:
+
+   ```bash
+   git push origin minha-feature
+   ```
+
+5. Abra um **Pull Request** para revisão.
+
+## 📚 Tecnologias Utilizadas
+
+- **Node.js**: Para a execução do backend.
+- **HTML/CSS/JavaScript**: Interface do usuário simples e intuitiva.
+- **Canvas API**: Para a geração dinâmica das imagens.
+
+## 📖 Referências
+
+- Livro: [Clean Architecture](https://www.oreilly.com/library/view/clean-architecture-a/9780134494272/) - Robert C. Martin
+
+## 🖥️ Demonstração
+
+Veja o aplicativo em funcionamento no vídeo abaixo:
+
+[Link para o vídeo]
+
+## 📝 Licença
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+Sinta-se à vontade para adaptar e adicionar mais detalhes ao `README.md` conforme necessário.
